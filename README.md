@@ -26,7 +26,8 @@ O dashboard oferece:
 
 | Arquivo                           | Descrição                                                                             |
 | --------------------------------- | ---------------------------------------------------------------------                 |
-| `csv_streamlit.py`                          | Código principal do projeto, implementado em **Streamlit**.           
+| `output_video.mp4`                | Vídeo do Projeto                                                                      |
+| `csv_streamlit.py`                | Código principal do projeto, implementado em **Streamlit**.                           | 
 | `bolsa_familia_hypotetico.csv`    | Dados fictícios do Bolsa Família (idade, município, benefício, etc.).                 |
 | `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                                     |
 | `db_connection.py`                | Conectar e testar conexões com um banco MySQL (listar tabelas e encerrar conexões)    |
