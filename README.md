@@ -93,3 +93,6 @@ connection = mysql.connector.connect(
     database='seu_banco_de_dados'
 )
 ````
+## **Inspiração do Projeto**
+
+## **Criadores do Projeto**
