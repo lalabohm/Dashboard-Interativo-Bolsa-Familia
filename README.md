@@ -24,11 +24,14 @@ O dashboard oferece:
 
 ## **Estrutura dos Arquivos**
 
-| Arquivo                           | Descrição                                                             |
-| --------------------------------- | --------------------------------------------------------------------- |
+| Arquivo                           | Descrição                                                                            |
+| --------------------------------- | ---------------------------------------------------------------------                |
 | `csv_streamlit.py`                          | Código principal do projeto, implementado em **Streamlit**.           
-| `bolsa_familia_hypotetico.csv`    | Dados fictícios do Bolsa Família (idade, município, benefício, etc.). |
-| `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                     
+| `bolsa_familia_hypotetico.csv`    | Dados fictícios do Bolsa Família (idade, município, benefício, etc.).                |
+| `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                                    |
+| `db_connection.py`                |conectar e testar conexões com um banco MySQL (listar tabelas e encerrar conexões)    |
+
+
                     
 
 ## **Estrutura do Dashboard**
