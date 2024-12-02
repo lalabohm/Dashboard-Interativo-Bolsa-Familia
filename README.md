@@ -31,6 +31,33 @@ O dashboard oferece:
 | `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                     
                     |
 
+## **Estrutura do Dashboard**
+
+O dashboard possui três abas principais:
+
+### **1. Dados Combinados**
+- Mescla os dados do Bolsa Família com os dados regionais pelo município.
+- Filtros interativos:
+  - Município.
+  - Faixa de idade.
+  - Valor mínimo do benefício.
+- Exportação de dados filtrados em formato CSV.
+
+### **2. Bolsa Família**
+- Exibição dos dados originais do programa Bolsa Família.
+- Estatísticas descritivas:
+  - Média.
+  - Mínimo.
+  - Máximo.
+  - Outras informações estatísticas relevantes.
+
+### **3. Dados Regionais**
+- Exibição dos dados regionais (IDH por município).
+- Estatísticas descritivas:
+  - Média.
+  - Mínimo.
+  - Máximo.
+  - Outras informações estatísticas relevantes.
 ---
 
 ## **Como Executar o Projeto**
@@ -65,33 +92,4 @@ connection = mysql.connector.connect(
     password='sua_senha',
     database='seu_banco_de_dados'
 )
-
-
-## **Estrutura do Dashboard**
-
-O dashboard possui três abas principais:
-
-### **1. Dados Combinados**
-- Mescla os dados do Bolsa Família com os dados regionais pelo município.
-- Filtros interativos:
-  - Município.
-  - Faixa de idade.
-  - Valor mínimo do benefício.
-- Exportação de dados filtrados em formato CSV.
-
-### **2. Bolsa Família**
-- Exibição dos dados originais do programa Bolsa Família.
-- Estatísticas descritivas:
-  - Média.
-  - Mínimo.
-  - Máximo.
-  - Outras informações estatísticas relevantes.
-
-### **3. Dados Regionais**
-- Exibição dos dados regionais (IDH por município).
-- Estatísticas descritivas:
-  - Média.
-  - Mínimo.
-  - Máximo.
-  - Outras informações estatísticas relevantes.
 ````
