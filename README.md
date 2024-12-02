@@ -26,10 +26,10 @@ O dashboard oferece:
 
 | Arquivo                           | Descrição                                                             |
 | --------------------------------- | --------------------------------------------------------------------- |
-| `csv_streamlit.py`                          | Código principal do projeto, implementado em **Streamlit**.           |
+| `csv_streamlit.py`                          | Código principal do projeto, implementado em **Streamlit**.           
 | `bolsa_familia_hypotetico.csv`    | Dados fictícios do Bolsa Família (idade, município, benefício, etc.). |
 | `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                     
-                    |
+                    
 
 ## **Estrutura do Dashboard**
 
