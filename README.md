@@ -94,5 +94,9 @@ connection = mysql.connector.connect(
 )
 ````
 ## **Inspiração do Projeto**
-
+- [Sprint](https://github.com/paraujo2005/Sprint): Ideias iniciais e conceitos.
 ## **Criadores do Projeto**
+
+- [Lana Ramiro](https://github.com/lanaramiro) - Criador do projeto original
+- [Larissa Bohm](https://github.com/lalabohm) - Ideias iniciais e contribuições
+- [Matheus Ventura](https://github.com/MatheusgVentura) - Colaboração no design e funcionalidades
