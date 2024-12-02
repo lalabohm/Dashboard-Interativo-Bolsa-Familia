@@ -26,10 +26,10 @@ O dashboard oferece:
 
 | Arquivo                           | Descrição                                                             |
 | --------------------------------- | --------------------------------------------------------------------- |
-| `app.py`                          | Código principal do projeto, implementado em **Streamlit**.           |
+| `csv_streamlit.py`                          | Código principal do projeto, implementado em **Streamlit**.           |
 | `bolsa_familia_hypotetico.csv`    | Dados fictícios do Bolsa Família (idade, município, benefício, etc.). |
-| `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                     |
-| `requirements.txt`                | Dependências necessárias para executar o projeto.                     |
+| `dados_regionais_contextuais.csv` | Dados regionais (município, IDH).                                     
+                    |
 
 ---
 
@@ -65,6 +65,7 @@ connection = mysql.connector.connect(
     password='sua_senha',
     database='seu_banco_de_dados'
 )
+
 
 ## **Estrutura do Dashboard**
 
